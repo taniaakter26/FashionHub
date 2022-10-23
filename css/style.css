@@ -1,0 +1,715 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h3,h4,h5,h6{
+	font-family: 'Oxygen', sans-serif;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*logo section starts here*/
+.logo{
+	width: 100%;
+	padding: 12px 0px;
+	border-bottom: 1px solid #ebebeb;
+}
+.logo .inner-logo{
+padding: 19px 0px 0px 100px;
+}
+.logo .inner-logo img{
+width: 180px;
+}
+
+.logo .search{
+    padding: 17px 0px 0px 0px;
+}
+.logo .search input{
+    padding-bottom: 2px;
+}
+.logo .search .form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+font-size: 11px;
+color: #000;
+padding: 0px 0px 0px 10px;
+}
+.logo .cart{
+list-style: none;
+margin-left: -60px;
+}
+
+.logo .cart .fa{
+    font-size: 22px;
+    width: 34px;
+    margin-top: 20px;
+}
+.logo .cart h6{
+    margin-top: -26px;
+    margin-left: 33px;
+    font-size: 14px;
+     font-weight: 600;
+}
+.logo .cart p{
+    margin-top: -13px;
+    margin-left: 33px;
+    font-size: 12px;
+    font-weight: 600;
+}
+/*logo section end*/
+
+/*header section starts here*/
+.header{
+    width: 100%;
+    padding: 0px 0px;
+    border-bottom: 1px solid #ebebeb;
+}
+.header .navbar .navbar-nav{
+    padding: 0px 0px 0px 86px;
+}
+.header .navbar .navbar-nav .nav-item{
+    padding: 0px 35px 0px 0px;
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #111111;
+}
+.header .navbar-nav .nav-link.active{
+    color: #cb0d22;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+   color: #cb0d22; 
+   font-size: 14px;
+}
+/*header section ends*/
+
+/* banner section starts here */
+.banner{
+	width: 100%;
+    padding: 80px 0px;
+    height: 70vh;
+    background: url(../images/fbanner.png) center top, no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 400px;
+}
+.banner .title{
+padding: 0px 0px 3px 115px;
+}
+.banner .title h1{
+    font-size: 70px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #232323;
+}
+.banner .title p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #303031;
+    font-weight: 400;
+}
+.banner .title input{
+    color: #fff;
+    background: #000;
+    padding: 8px 29px;
+}
+.banner .title input:hover{
+    background: #ba0015;
+    border: 1px solid #ba0015;
+}
+
+.banner .category{
+	background: #ba0015;
+    width: 195px;
+    height: 311px;
+    position: absolute;
+    top: 86%;
+}
+.banner .category h4{
+	font-size: 23px;
+    line-height: 29px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 65px 0px 0px;
+}
+.banner .category p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 19px;
+}
+.banner .forma{
+    position: absolute;
+    top: 105%;
+}
+.banner .forma .gallery {
+	margin: 5px;
+    border: 1px solid #ebebeb;
+    float: left;
+    width: 145px;
+    height: 138px;
+    text-align: center;
+}
+.banner .forma .gallery:hover {
+  border: 1px solid #777;
+}
+.banner .forma .text {
+	margin: 5px;
+    border: 1px solid #ebebeb;
+    background: #2f2e42;
+    float: left;
+    width: 145px;
+    height: 138px;
+    text-align: center;
+}
+.banner .forma .text p{
+	color: #fff;
+	padding: 44px 0px 0px;
+}
+.banner .forma .text:hover {
+  border: 1px solid #777;
+}
+.banner .forma .gallery img {
+  	width: 26%;
+    height: 55px;
+    margin: 21px 0px 0px;  
+}
+.banner .forma .desc {
+  font-size: 13px;
+    line-height: 16px;
+    padding: 16px 0px 0px;
+    text-align: center;
+    color: #9f7e75;
+}
+/* banner section end */
+
+/*popular section starts*/
+.popular{
+	width: 100%;
+    padding: 163px 0px;
+    background: url(../images/pbanner.png) center top, no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 377px;
+}
+.popular .title{
+    padding: 0px 0px 0px 151px;
+    margin-top: -48px;
+}
+.popular .title h4{
+    color: #fff;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 64px;
+}
+.popular .title h2{
+    color: #fff;
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.popular .gallary1{
+	z-index: 1;
+	position: absolute;
+	top: 79%;
+    left: 17%;
+    border: 9px solid white;
+    text-align: center;
+}
+.popular .gallary1 img{
+	width: 231px;
+    height: 300px;
+}
+.popular .gallary1 .desc{
+	text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.popular .gallary1 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.popular .gallary2{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 33%;
+    border: 9px solid white;
+    text-align: center;
+}
+.popular .gallary2 img{
+   width: 231px;
+    height: 300px;
+}
+.popular .gallary2 .desc{
+    text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.popular .gallary2 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+}
+.popular .gallary3{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 49%;
+    border: 9px solid white;
+    text-align: center;
+}
+.popular .gallary3 img{
+    width: 234px;
+    height: 300px;
+}
+.popular .gallary3 .desc{
+   text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.popular .gallary3 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.popular .gallary4{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 65%;
+    text-align: center;
+    border: 9px solid white;
+
+}
+.popular .gallary4 img{
+    width: 232px;
+    height: 300px;
+}
+.popular .gallary4 .desc{
+    text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.popular .gallary4 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+/*popular section end*/
+
+/*arrival section starts*/
+.arrival{
+    width: 100%;
+    padding: 163px 0px;
+    background: url(../images/abanner.png) center top, no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 310px;
+}
+.arrival .title{
+    padding: 0px 0px 0px 151px;
+    margin-top: -48px;
+}
+.arrival .title h4{
+    color: #010101;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 33px;
+    padding-left: 64px;
+}
+.arrival .title h2{
+    color: #010101;
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.arrival .gallary1{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 17%;
+    border: 9px solid white;
+    text-align: center;
+}
+.arrival .gallary1 img{
+    width: 231px;
+    height: 300px;
+}
+.arrival .gallary1 .desc{
+    text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.arrival .gallary1 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.arrival .gallary2{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 33%;
+    border: 9px solid white;
+    text-align: center;
+}
+.arrival .gallary2 img{
+   width: 231px;
+    height: 300px;
+}
+.arrival .gallary2 .desc{
+    text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.arrival .gallary2 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+}
+.arrival .gallary3{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 49%;
+    border: 9px solid white;
+    text-align: center;
+}
+.arrival .gallary3 img{
+   width: 231px;
+    height: 300px;
+}
+.arrival .gallary3 .desc{
+   text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.arrival .gallary3 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.arrival .gallary4{
+    z-index: 1;
+    position: absolute;
+    top: 79%;
+    left: 65%;
+    text-align: center;
+    border: 9px solid white;
+
+}
+.arrival .gallary4 img{
+    width: 232px;
+    height: 300px;
+}
+.arrival .gallary4 .desc{
+    text-align: center;
+    padding: 12px 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.arrival .gallary4 a{
+    color: #cb0000;
+    text-align: center;
+    padding: 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+/*arrival section end */
+
+/*store and collection section starts*/
+.new{
+    width: 100%;
+    padding: 80px 0px;
+}
+.new .store{
+    width: 772px;
+    height: 450px;
+    background: url(../images/sbanner.png) left top, no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px -112px;
+}
+.new .store .title{
+    padding: 125px 0px 0px 121px;
+}
+.new .store .title h4{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.new .store .title h2{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+.new .store .title input{
+    color: #000;
+    background: #fff;
+    padding: 8px 29px;
+    border: 1px solid #fff; 
+}
+.new .store .title .shop{
+    font-weight: 600;
+}
+.new .collection{
+    width: 747px;
+    height: 450px;
+    background: url("../images/cbanner.png") right top, no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+}
+.new .collection .title{
+    padding: 125px 0px 0px 121px;
+}
+.new .collection .title h4{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.new .collection .title h2{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+.new .collection .title input{
+     color: #000;
+    background: #fff;
+    padding: 8px 29px;
+    border: 1px solid #fff;
+}
+.new .collection .title .shop{
+    font-weight: 600;
+}
+/*store and collection end*/
+
+/*latest section starts here*/
+.latest{
+    width: 100%;
+    padding: 20px 0px 80px;
+}
+.latest .title{
+    text-align: center;
+    padding: 0px 0px 23px;
+}
+.latest .title h4{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 500;
+    color: #200e09;
+}
+.latest .title p{
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #3b3b3b;
+}
+.latest .card1{}
+.latest .card-group{}
+.latest .card-group .card{
+    border: 8px solid white;
+}
+.latest .card-group .card .card-body .red{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.latest .card-group .card .card-body .card-text p{
+    border-top: 1px solid #ebebeb;
+}
+.latest .card-group .card .card-body .card-text .text-muted{
+    padding: 0px 13px 0px 0px;
+}
+
+.latest .card-group .card .card-body .card-text .fa-clock-o{
+    font-size: 13px;
+    padding: 0px 6px 0px 0px;
+}
+.latest .card-group .card .card-body .card-text .fa-comment{
+     font-size: 13px;
+    padding: 0px 6px 0px 0px;
+}
+.latest .card-group .card .card-body .card-text .card-link{
+    font-size: 13px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    border-left: 1px solid #ebebeb;
+    padding: 0px 0px 0px 10px;
+}
+.latest .card-group .card .card-body .card-text .card-link:hover{
+    color: #b33b2d;
+    font-size: 14px;
+}
+/*latest section end*/
+/*footer section starts here*/
+.footer{
+    width: 100%;
+    padding: 80px 0px 30px;
+    background: #000000;
+}
+.inner-text{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #858585;
+    font-family: 'Oxygen', sans-serif;
+}
+.footer h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+}
+.footer .widget{
+    display: block;
+    padding: 0px;
+}
+.footer .widget li{
+    list-style: none;
+    display: block;
+}
+.footer .widget li a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #858585;
+    font-family: 'Oxygen', sans-serif;
+  
+    
+}
+.footer .widget li a:hover, .footer .widget li a:focus{
+    font-weight: 700;
+    transition: 1s;
+}
+.footer .copyright{
+    padding: 40px 105px 0px; 
+    font-size: 12px;
+    line-height: 24px;
+    color: #f8f8f8;
+    text-align: left; 
+}
+.footer .design{
+    padding: 40px 105px 0px; 
+    font-size: 12px;
+    line-height: 24px;
+    color: #f8f8f8;
+    text-align: right; 
+}
+
+.footer .social ul{
+    padding: 0px;
+}
+.footer .social .fa{
+    border: 2px solid #7c7c7c;
+    padding: 13px 18px;
+    color: #7c7c7c;
+}
+.footer .social li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    margin: 3px 3px 0px 0px;
+}
+.footer .social li a{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    
+}
+.footer .social li a:hover, .footer .social li a:focus{
+    font-weight: 700;
+    transition: 1s;
+}
+/*footer section end*/

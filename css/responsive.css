@@ -1,0 +1,24 @@
+
+/* low resulation mobile phone--glaxy fold */
+@media (min-width: 279px) and (max-width: 319px){
+/* small-device code start */
+/* small-device code end */
+}
+
+/* most of the smartphone devices */
+@media (min-width: 320px) and (max-width: 480px){
+/* maximum device code start */
+/*maximum device code end*/
+}
+
+/* mobile phone and low resulation tablet */
+@media (min-width: 481px) and (max-width: 767px){
+/* mobile device code starts */
+/* mobile device code end */
+}
+
+/* tablet, notebook */
+@media (min-width: 768px) and (max-width: 1024px){
+/* tablet device code start*/
+/*tablet device code end*/
+  }
