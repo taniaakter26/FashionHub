@@ -1,19 +1,451 @@
 
 /* low resulation mobile phone--glaxy fold */
-@media (min-width: 279px) and (max-width: 319px){
+@media screen and (max-width: 319px){
 /* small-device code start */
+.logo .inner-logo img {
+    width: 129px;
+}
+.logo .inner-logo {
+    padding: 19px 0px 0px 0px;
+    text-align: center;
+}
+.logo .search {
+    padding: 21px 0px 0px 0px;
+    text-align: center;
+}
+.logo .cart {
+    list-style: none;
+    margin-left: 18px;
+}
+.banner .title {
+    padding: 0px 0px 3px 0px;
+    text-align: center;
+}
+.banner .title h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.banner .category {
+    width: 108px;
+    height: 256px;
+    position: absolute;
+    top: 90%;
+}
+.banner .category h4 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 35px 0px 0px;
+}
+.banner .category p {
+    font-size: 8px;
+    line-height: 18px;
+}
+.banner .forma {
+    position: absolute;
+    top: 101%;
+    left: 48%;
+}
+.banner .forma .gallery {
+    margin: 2px;
+    border: 1px solid #ebebeb;
+    float: left;
+    width: 78px;
+    height: 80px;
+    text-align: center;
+}
+.banner .forma .gallery img {
+    width: 47%;
+    height: 31px;
+    margin: 5px 0px 0px;
+}
+.banner .forma .desc {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 5px 0px 0px;
+}
+.banner .forma .text {
+    margin: 1px;
+    width: 83px;
+    height: 83px;
+}
+.banner .forma .text p {
+    padding: 10px 0px 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.popular {
+    padding: 90px 0px;
+}
+.popular .title{
+    padding: 0px;
+    text-align: center;
+}
+.popular .title h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+.popular .title h4 {
+    padding-left: 0px;
+    font-size: 38px;
+    line-height: 29px;
+}
+.popular .gallary1 img {
+    width: 191px;
+    height: 259px;
+}
+.arrival {
+    padding: 90px 0px;
+}
+.arrival .title {
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.arrival .title h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+.arrival .title h4 {
+    padding-left: 0px;
+    font-size: 38px;
+    line-height: 29px;
+}
+.arrival .gallary1 img {
+    width: 186px;
+    height: 259px;
+}
+.new {
+    text-align: center;
+}
+.new .store {
+    width: 100%;
+    margin: 0px;
+}
+.new .store .title {
+    padding: 125px 0px 0px 0px;
+}
+.new .collection {
+    width: 100%;
+    margin: 0px;
+}
+.new .collection .title {
+    padding: 125px 0px 0px 0px;
+}
+.latest .card-group .card .card-body .card-text .text-muted {
+    padding: 0px 8px 0px 0px;
+}
+.footer {
+    text-align: center;
+}
+.footer h4 {
+    font-size: 13px;
+    line-height: 24px;
+    padding: 11px 0px 8px 0px;
+}
+.footer .inner-text {
+    font-size: 11px;
+    line-height: 21px;
+}
+.footer .widget li a {
+    font-size: 12px;
+    line-height: 22px;
+}
+.footer .social .fa {
+    padding: 10px 13px;
+}
+.footer .copyright {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 30px 8px 0px;
+    text-align: center;
+}
+.footer .design {
+    padding: 3px 0px 0px;
+    text-align: center;
+}
 /* small-device code end */
 }
 
 /* most of the smartphone devices */
 @media (min-width: 320px) and (max-width: 480px){
 /* maximum device code start */
+.logo .inner-logo {
+    padding: 19px 0px 0px 0px;
+    text-align: center;
+}
+.logo .search {
+    padding: 21px 0px 0px 0px;
+    text-align: center;
+}
+.logo .cart {
+    list-style: none;
+    margin-left: 60px;
+}
+.banner .title {
+    padding: 0px 0px 3px 0px;
+    text-align: center;
+}
+.banner .title h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.banner .category {
+    width: 141px;
+    height: 256px;
+    position: absolute;
+    top: 90%;
+}
+.banner .category h4 {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 33px 0px 0px;
+}
+.banner .category p {
+    font-size: 10px;
+    line-height: 20px;
+}
+.banner .forma {
+    position: absolute;
+    top: 101%;
+    left: 48%;
+}
+.banner .forma .gallery {
+    margin: 2px;
+    border: 1px solid #ebebeb;
+    float: left;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.banner .forma .gallery img {
+    width: 47%;
+    height: 31px;
+    margin: 5px 0px 0px;
+}
+.banner .forma .desc {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 5px 0px 0px;
+}
+.banner .forma .text {
+    margin: 1px;
+    width: 83px;
+    height: 83px;
+}
+.banner .forma .text p {
+    padding: 10px 0px 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.popular {
+    padding: 110px 0px;
+}
+.popular .title{
+    padding: 0px;
+    text-align: center;
+}
+.popular .title h4 {
+    padding-left: 0px;
+}
+.arrival {
+    padding: 110px 0px;
+}
+.arrival .title {
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.arrival .title h4 {
+    padding-left: 0px;
+}
+.new {
+    text-align: center;
+}
+.new .store {
+    width: 100%;
+    margin: 0px;
+}
+.new .store .title {
+    padding: 125px 0px 0px 0px;
+}
+.new .collection {
+    width: 100%;
+    margin: 0px;
+}
+.new .collection .title {
+    padding: 125px 0px 0px 0px;
+}
+.latest .card-group .card .card-body .card-text .text-muted {
+    padding: 0px 8px 0px 0px;
+}
+.footer {
+    text-align: center;
+}
+.footer h4 {
+    font-size: 13px;
+    line-height: 24px;
+    padding: 11px 0px 8px 0px;
+}
+.footer .inner-text {
+    font-size: 11px;
+    line-height: 21px;
+}
+.footer .widget li a {
+    font-size: 12px;
+    line-height: 22px;
+}
+.footer .copyright {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 30px 8px 0px;
+    text-align: center;
+}
+.footer .design {
+    padding: 4px 105px 0px;
+    text-align: center;
+}
+
 /*maximum device code end*/
 }
 
 /* mobile phone and low resulation tablet */
 @media (min-width: 481px) and (max-width: 767px){
 /* mobile device code starts */
+.logo .inner-logo {
+    padding: 19px 0px 0px 0px;
+    text-align: center;
+}
+.logo .search {
+    padding: 21px 0px 0px 0px;
+    text-align: center;
+}
+.logo .cart {
+    list-style: none;
+    margin-left: 60px;
+}
+.banner .title {
+    padding: 0px 0px 3px 0px;
+    text-align: center;
+}
+.banner .title h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.banner .category {
+    width: 141px;
+    height: 256px;
+    position: absolute;
+    top: 90%;
+}
+.banner .category h4 {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 33px 0px 0px;
+}
+.banner .category p {
+    font-size: 10px;
+    line-height: 20px;
+}
+.banner .forma {
+    position: absolute;
+    top: 101%;
+    left: 48%;
+}
+.banner .forma .gallery {
+    margin: 2px;
+    border: 1px solid #ebebeb;
+    float: left;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.banner .forma .gallery img {
+    width: 47%;
+    height: 31px;
+    margin: 5px 0px 0px;
+}
+.banner .forma .desc {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 5px 0px 0px;
+}
+.banner .forma .text {
+    margin: 1px;
+    width: 83px;
+    height: 83px;
+}
+.banner .forma .text p {
+    padding: 10px 0px 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.popular {
+    padding: 110px 0px;
+}
+.popular .title{
+    padding: 0px;
+    text-align: center;
+}
+.popular .title h4 {
+    padding-left: 0px;
+}
+.arrival {
+    padding: 110px 0px;
+}
+.arrival .title {
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.arrival .title h4 {
+    padding-left: 0px;
+}
+.new {
+    text-align: center;
+}
+.new .store {
+    width: 100%;
+    margin: 0px;
+}
+.new .store .title {
+    padding: 125px 0px 0px 0px;
+}
+.new .collection {
+    width: 100%;
+    margin: 0px;
+}
+.new .collection .title {
+    padding: 125px 0px 0px 0px;
+}
+.latest .card-group .card .card-body .card-text .text-muted {
+    padding: 0px 8px 0px 0px;
+}
+.footer {
+    text-align: center;
+}
+.footer h4 {
+    font-size: 13px;
+    line-height: 24px;
+    padding: 11px 0px 8px 0px;
+}
+.footer .inner-text {
+    font-size: 11px;
+    line-height: 21px;
+}
+.footer .widget li a {
+    font-size: 12px;
+    line-height: 22px;
+}
+.footer .copyright {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 30px 8px 0px;
+    text-align: center;
+}
+.footer .design {
+    padding: 4px 105px 0px;
+    text-align: center;
+}
 /* mobile device code end */
 }
 
